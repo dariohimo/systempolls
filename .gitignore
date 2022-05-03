@@ -1,2 +1,7 @@
 __pycache__/
 db*
+bkdb*
+Bk_db.sqlite3
+db.sqlite3
+datadump2.json
+db.sqlite3
