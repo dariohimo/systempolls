@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<h3 style = "margin-bottom: 20px" class="text-info" ><strong>Results</strong></h3>
+
+<h4 class="text-info">{{question.question}}</h4>
+
+<ul class="list-group">
+{% for option in options %}
+<li class="list-group-item d-flex justify-content-between align-items-center">
+    {{option.option}}
+    <span class="badge bg-primary rounded-pill">{{option.vote}}%</span>
+  </li>
+  {% endfor %}
+
+  <div class="container-sm">
+    <a class="btn btn-primary" href="{% url 'index' %}"><h6>Start</h6></a>
+   
+  </div>
+  
+</ul>
+
+
+
+
+
+
+
+{% endblock %}
