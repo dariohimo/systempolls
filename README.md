@@ -134,7 +134,7 @@ ___
 
 ## deploy 
 **Heroku** 📜
-- **[HEROKU]( https://github.com/dariohimo/systempolls)**
+- **[HEROKU]( https://qqpolls.herokuapp.com/)**
 ---
 
 **GITHUB** :octocat:
