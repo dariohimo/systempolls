@@ -1,0 +1,137 @@
+https://github.com/Re-On-Media/Website-Portfolio
+
+https://www.youtube.com/watch?v=uIyh06z6wyI&list=PLOLrQ9Pn6cazZScthXI-gMQv-YrDUMnlY&index=6
+
+
+#virtualenv --version
+#install pip
+#
+sudo apt-get install python3-pip
+#
+#install venv
+#
+sudo apt install python3.8-venv
+#
+#
+#creacion entorno virtual
+#
+sudo python3 -m venv crud_env
+#
+python3 -m venv crud_env
+#activacion
+source crud_env/bin/activate
+### dentro de la carpeta creada y viendo env
+source env/bin/activate
+###
+#desactivar
+deactivate
+#
+#instala Django
+#
+pip install Django==3.0
+
+pip install django
+##
+ django-admin startproject crud
+
+###django start
+python3 manage.py runserver
+##
+##creacion proyecto django ejemplo animales
+python3 manage.py startapp animales
+##
+##migracion bd
+python3 manage.py makemigrations
+##migra total
+python3 manage.py migrate 
+##
+minuto 19
+##
+#muestra lista
+django-admin 
+##
+creacion del projecto en la misma carpeta virtualenv
+###
+django-admin startproject django_password_generator .
+##
+###
+###
+virtualenv -p python3 venv
+####
+source venv/bin/activate  si utila p.
+###
+###
+cd systempolls  
+source venv/bin/activate
+django-admin startapps polls
+###
+creacion ambiente virtualevn
+virtualenv -p python3 venv
+
+####linux
+virtualenv nombreEntornovirtual
+##activar
+source env/bin/activate
+##
+deactivate
+####
+pip install Django
+##
+django-admin startproject systempolls   = polls
+##
+ubicarse en la carpeta crearda dar el comando
+python3 manage.py runserver 8000
+###
+python3 manage.py startapp polls         = pollsapp
+###
+##
+migraciones
+python3 manage.py makemigrations
+##
+python3 manage.py makemigrations    ### primero para crear initial.py
+##
+Migrations for 'polls':
+  polls/migrations/0001_initial.py
+    - Create model Question
+    - Create model Choice
+
+###
+python3 manage.py migrate           ##después de crear initial.py
+##
+crear usuario superuser
+##
+python3 manage.py createsuperuser
+##
+##migración
+##dumpdata de sqlite to json
+##
+python3 manage.py dumpdata > db.json
+##
+## instalacion para mysql python
+##
+sudo apt-get install python3.9-dev libmysqlclient-dev
+##
+pip install mysqlclient
+##
+ pip install mysql-connector-python
+
+##
+python3 manage.py migrate
+
+
+
+###
+
+entorno virtual
+##
+###
+###
+https://github.com/DargyJML/snakegame
+https://github.com/LDvargasHidalgo/snake_python.git
+https://github.com/DanielaTob
+https://github.com/doralysantander
+
+####
+
+
+
